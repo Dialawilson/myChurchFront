@@ -1,14 +1,13 @@
-
-import Welcome from "./component/welcome&select/Welcome"
+import { RouterProvider } from "react-router-dom";
+import router from "./Routes.jsx";
+import Welcome from "./component/welcome&select/Welcome";
 
 function App() {
-
   return (
     <>
-    <Welcome/>
-    <p>welcome to myChurchFront</p>
+      <RouterProvider router={router} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
