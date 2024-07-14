@@ -1,21 +1,64 @@
 .welcomeSection{
     background-color: aqua;
     padding-top: 3rem;
+    border-radius: 2rem;
 }
 .select{
     border-radius: 10px;
     background-color: transparent;
     margin-bottom: 10px;
-    /* width: 100%; */
     text-transform: capitalize;
 }
+
+.select>option{
+    text-transform: capitalize;
+}
+
+.agip{
+    padding: 2rem;
+    
+}
+
+
+.live-button button img{
+    height: 20px;
+    
+}
+
+.live-button button{
+    background-color: red;
+    color: white;
+}
+
+.live-button button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 100, 100);
+    color: white;
+}
+
+.service-main img{
+    height: 50px;
+    margin-bottom: 10px;
+    border: solid 1px rgb(97, 97, 97);
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+.services .btn{
+    background-color: red;
+    color: white;
+}
+
+
+
+
 @media (min-width: 320px) and (max-width: 767px) {
-    /* Your CSS styles for mobile devices here */
     .select{
         width: 100%;
     }
   }
+ 
   
-.select>option{
-    text-transform: capitalize;
-}

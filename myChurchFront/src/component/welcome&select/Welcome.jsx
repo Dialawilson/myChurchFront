@@ -9,11 +9,11 @@ const Welcome = () => {
     navigate(selectPath)
   }
   return (
-    <div className=' container-sm'>
+    <div className=' container-sm col-12 col-lg-10 mt-4'>
        <div className="row welcomeSection">
-       <div className=' col-12'>
-            <h2 className=' display-2  text-capitalize '>welcome to <br /> Our !</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo delectus ratione iusto tempore rerum sed optio impedit, quidem atque earum assumenda voluptatibus, obcaecati aut natus tempora. Atque, corrupti maiores.
+       <div className=' col-112 p-4'>
+            <h2 className=' display-2  text-capitalize '>welcome to <br /> Our Church webpage</h2>
+            <p className='col-lg-6 col-12 p-2' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia explicabo delectus ratione iusto tempore rerum sed optio impedit, quidem atque earum assumenda voluptatibus, obcaecati aut natus tempora. Atque, corrupti maiores.
             Animi eius ti?</p>
            <select name="select section" onChange={handleOptionChange} className=' p-2 select' id="">
             <option value="/">agip road (golden city)</option>
